@@ -50,20 +50,20 @@ Follow Macaw documentation to create and deploy a WebApp of sm-shop/target/sm-sh
 - Configure Macaw Client Properties:
 In the user home directory create a file named "macaw.conf" with the following properties
 
-	service.registry.host=<IP address of the Macaw Platform Host>
-	service.registry.port=8443
-	service.registry.protocol=https
-	cfx.kafka.servers=<IP address of the Macaw Platform Host>:<Kafka port example: 9092>
-	cfx.zookeeper.connect=<IP address of the Macaw Platform Host>:<Zookeeper port example: 2181>
-	api.gateway.host=<IP address of the Macaw Platform Host>
-	api.gateway.protocol=https
-	api.gateway.port=443
-	api.gateway.appname=api_gateway
-	api.gateway.token.renewal.interval=900000
-	cfx.ssl.truststore.location=<Absolute path to the location of trust store file ca_truststore>
-	cfx.ssl.truststore.password=<Truststore pass phrase>
-	io.macaw.demo.user=<Macaw service api access userid - normally the account used for logging onto Macaw DevOps Console will work>
-	io.macaw.demo.password=<Macaw service api access password>
+        service.registry.host=<IP address of the Macaw Platform Host>
+        service.registry.port=8443
+        service.registry.protocol=https
+        cfx.kafka.servers=<IP address of the Macaw Platform Host>:<Kafka port example: 9092>
+        cfx.zookeeper.connect=<IP address of the Macaw Platform Host>:<Zookeeper port example: 2181>
+        api.gateway.host=<IP address of the Macaw Platform Host>
+        api.gateway.protocol=https
+        api.gateway.port=443
+        api.gateway.appname=api_gateway
+        api.gateway.token.renewal.interval=900000
+        cfx.ssl.truststore.location=<Absolute path to the location of trust store file ca_truststore>
+        cfx.ssl.truststore.password=<Truststore pass phrase>
+        io.macaw.demo.user=<Macaw service api access userid>
+        io.macaw.demo.password=<Macaw service api access password>
 
 - Run the demo:
 
