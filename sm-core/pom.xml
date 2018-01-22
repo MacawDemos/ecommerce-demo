@@ -243,11 +243,13 @@
 		    <artifactId>geoip2</artifactId>
 		    <version>${geoip2.version}</version>
 		</dependency>
+<!-- NEEDED ONLY FOR CODEGEN
 		<dependency>
                     <artifactId>servicegen</artifactId>
                     <version>1.0.0-SNAPSHOT</version>
                     <groupId>com.cfx.generator</groupId>
 		</dependency>
+-->
 		
 	</dependencies>
     <build>
@@ -262,6 +264,7 @@
                     <compilerArgument>-parameters</compilerArgument>
                 </configuration>
             </plugin>
+<!-- NEEDED ONLY FOR CODEGEN
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
@@ -275,6 +278,7 @@
                     </descriptorRefs>
                 </configuration>
             </plugin>
+-->
         </plugins>
     </build>
 
