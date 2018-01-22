@@ -44,7 +44,7 @@ Run the application as a Macaw WebApp
 Follow Macaw documentation to create and deploy a WebApp of sm-shop/target/sm-shop.war
 
 
-### Run the application from Spring boot:
+### Run the application from Spring Boot:
 -----------------------------------------
 
 - Configure Macaw Client Properties:
