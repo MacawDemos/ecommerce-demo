@@ -18,7 +18,7 @@ https://macaw.io/getting-started/
 ### Get the Ecommerce Demo:
 ---------------------------
 
-Set environment variable DEMO_ROOT to the location where the demo application is going to be downloaded to
+Set environment variable DEMO_ROOT to the location where the demo application is going to be downloaded to.
 For example: 
 
 $ export DEMO_ROOT=/opt/demos
@@ -37,7 +37,7 @@ From the command line with Maven installed:
 
 Publish the Megastore containerized microservice to Meta Data Repository (MDR) and deploy it using Macaw DevOps Console
 
-macawpublish service --tag ecommerce-demo-ver1 $DEMO_ROOT/ecommerce-demo
+macawpublish service --tag ecommerce-demo-ver1 $DEMO_ROOT/ecommerce-demo/megastore
 
 Run the application as a Macaw WebApp
 -------------------------------------
