@@ -25,7 +25,7 @@ $ export DEMO_ROOT=/opt/demos
 
 cd $DEMO_ROOT 
 
-$ git clone https://github.com/macawdemo/ecommerce-demo.git
+$ git clone https://github.com/MacawDemos/ecommerce-demo.git
 
 
 ### Build and Publish the demo application:
