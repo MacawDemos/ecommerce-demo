@@ -156,6 +156,10 @@
             <name>JBoss Maven Release Repository</name>
             <url>https://repository.jboss.org/nexus/content/repositories/releases</url>
         </repository>
+        <repository>
+            <id>macaw-releases</id>
+            <url>https://github.com/MacawDemos/macaw-mvn-repo/raw/master/releases</url>
+        </repository>
     </repositories>
 
     <pluginRepositories>

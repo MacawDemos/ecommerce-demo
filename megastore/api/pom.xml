@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <version.macaw.runtime>0.9.5-CR2</version.macaw.runtime>
+        <version.macaw.runtime>0.9.5-CR5</version.macaw.runtime>
         <shopizer.version>2.0.5-SNAPSHOT</shopizer.version>
     </properties>
 
@@ -50,5 +50,11 @@
             <version>${shopizer.version}</version>
         </dependency>
     </dependencies>
+    <repositories>
+        <repository>
+            <id>macaw-releases</id>
+            <url>https://github.com/MacawDemos/macaw-mvn-repo/raw/master/releases</url>
+        </repository>
+    </repositories>
 </project>
 
